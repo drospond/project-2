@@ -2,8 +2,6 @@
 
 Are you a Steam user? Do you have friends who own Steam games and want to play together? Steam Comparison is an interactive app where you can enter you and your friends' Steam username, and see if you share a game with your pal!
 
-![screenshot](./public/images/project_02_steam-comparison.png)
-
 ## Description
 
 Steam Comparison is a Steam API based app that lets users get their games list from Steam and compare their list to that of a friend's list. The application will display both the user list and the list of the other searched individual, also with a third list if matching games are found.
@@ -24,11 +22,7 @@ No installation necessary.
 
 ## Usage
 
-On the main page, enter a Steam username in the left-most textbox and click the 'Submit input' button to see a single Steam user's list of games. To see a comparison list for matching games between one user to another, enter two Steam usernames and the click the 'Submit input' button.
-
-The following demonstrates general application functionality:
-
-![steam-comparison demo](./public/images/steam-comparison-demo.gif)
+On the main page, enter a Steam vanity URL in the input. Click "Add User" to generate more input boxes for the amount of users you wish to compare and fill the inputs with vanity URLs. To see a comparison list for matching games between multiple users, enter two Steam usernames and the click the 'Compare' button.
 
 ## Design
 
@@ -40,11 +34,11 @@ The following demonstrates general application functionality:
 
 ## Application
 
-[Deployed Site](https://steam-comparison.herokuapp.com/)
+[Deployed Site](https://steam-library-comparer.herokuapp.com/)
 
 ## Repository
 
-[Github Repository](https://github.com/SamSherrill/project-2)
+[Github Repository](https://github.com/drospond/steam-library-comparer)
 
 ## License
 
